@@ -1,0 +1,15 @@
+bertopic
+hmmlearn
+matplotlib
+nltk
+numpy
+pandas
+pandas-datareader
+pyarrow
+scikit-learn
+sentence-transformers
+torch
+tqdm
+transformers
+umap-learn
+wrds

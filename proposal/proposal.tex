@@ -1,0 +1,118 @@
+\documentclass[12pt, letterpaper]{article}
+
+\usepackage[top=0.6in, bottom=0.6in, left=0.6in, right=0.6in]{geometry}
+\usepackage{titlesec}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+
+% Numbered, bold section and subsection headers, no rules
+\titleformat{\section}{\normalsize\bfseries}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.5em}{}
+% \titlespacing{命令}{左缩进}{标题前空距}{标题后空距}
+\titlespacing{\section}{0pt}{1.2ex plus 0.5ex minus 0.2ex}{0.6ex plus 0.2ex}
+\titlespacing{\subsection}{0pt}{0.8ex plus 0.3ex minus 0.2ex}{0.4ex plus 0.1ex}
+
+\hypersetup{colorlinks=true, linkcolor=black, urlcolor=blue, citecolor=black}
+
+\begin{document}
+
+% ─── Cover ───────────────────────────────────────────────────────────────────
+\begin{center}
+    {\large\bfseries Reading the Market: News-Augmented Regime Discovery\\[0.2em]
+    with Unsupervised Representation Learning}\\[0.4em]
+    {\normalsize Yixiang Huang \quad \texttt{yixianghuang@uchicago.edu}}
+\end{center}
+
+
+
+% ─── 1. Goals and Motivation ─────────────────────────────────────────────────
+\section{Goals and Motivation}
+
+This project investigates whether incorporating news textual information into market regime detection yields regimes that are more stable, more interpretable, or more economically meaningful than those obtained from price-based features alone.
+Traditional regime discovery methods --- HMMs, GMMs, and threshold-based switching models --- rely almost exclusively on price-derived features, which by construction only reflect information after it has already been incorporated into market prices.
+Market news provides a direct view of market narratives, investor attention, and information flow.
+If text-based signals help identify meaningful regimes, this project would show that financial news can serve not only as a sentiment or prediction input, but also as an unsupervised representation of changing market states.
+
+% ─── 2. Related Work ─────────────────────────────────────────────────────────
+\section{Key Related Work}
+
+This project builds on existing work in regime discovery for financial time series, news-based measurement of macroeconomic and market conditions, classical and neural topic modeling for financial text, and domain-specific language models for finance. Specific references are listed at the end of this proposal.
+
+% ─── 3. Data and Codebases ───────────────────────────────────────────────────
+\section{Data and Codebases}
+
+The project uses two main data sources. News data comes from RavenPack financial headlines spanning 2000--2025, covering multiple well-documented market regimes; market data includes daily price, volatility, sector returns, and selected macro-financial variables for major US equity indices from WRDS. Implementation will rely on standard Python libraries for clustering, latent-state, and classical topic models, together with HuggingFace \texttt{transformers}, \texttt{sentence-transformers}, and BERTopic for text representation, with FinBERT as the primary domain-specific model. PyTorch may be added if neural representation components are incorporated.
+
+The components I will implement myself include the end-to-end data pipeline aligning headlines with market data, the fusion strategies combining price- and text-based features, the evaluation modules covering clustering quality, regime stability, and financial interpretability, and a regime characterization module that aggregates news within each discovered regime to produce semantic summaries. 
+
+
+% ─── 4. Experiments ──────────────────────────────────────────────────────────
+\section{Planned Experiments}
+
+The experimental plan is organized around three method pathways. The price-only baseline applies clustering and latent-state models to standard market features; the news-only pathway applies the same model family to time-aggregated news representations; and the hybrid pathway combines the two through fusion strategies ranging from concatenation to more structured joint representations. 
+
+ Evaluation covers four dimensions: \textit{statistical fit}, \textit{clustering quality}, \textit{regime stability} under bootstrap resamples and rolling windows, and \textit{financial interpretability}, examined both quantitatively through per-regime financial quantities and qualitatively through semantic characterization of regimes against known historical episodes. 
+
+% ─── 5. Computing Resources ──────────────────────────────────────────────────
+\section{Computing Resources}
+
+Most of the project can run on a personal laptop. The most computationally expensive step is embedding extraction over the full RavenPack corpus using FinBERT or sentence-transformer models, for which I plan to use Google Colab. The overall compute footprint is expected to be modest.
+
+% ─── 6. Projected Timeline ───────────────────────────────────────────────────
+\section{Projected Timeline}
+
+\begin{center}
+\begin{tabular}{>{\bfseries}p{6cm} p{11cm}}
+\toprule
+Week & Milestone \\
+\midrule
+Week 1 (Apr 30 -- May 6)  & Data ingestion, cleaning, temporal alignment of RavenPack and market data; exploratory analysis; finalize feature selection. \\
+Week 2 (May 7 -- May 13)  & Construct market, text, and hybrid feature sets (sentiment, LDA, BERTopic, FinBERT embeddings); fit and validate price-only baseline (HMM, GMM). \\
+Week 3 (May 14 -- May 20) & Run regime detection on text-only and hybrid inputs; full four-dimensional evaluation (statistical fit, clustering quality, stability, interpretability). \\
+Week 4 (May 21 -- May 27) & Synthesize results, qualitative regime characterization via news aggregation, final report and presentation slides. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+
+
+
+\bigskip
+
+% ─── References ──────────────────────────────────────────────────────────────
+\section*{References}
+
+\begin{description}[leftmargin=1.5em, labelwidth=0pt, itemsep=0.4em]
+    \item Araci, Dogu. 2019. ``FinBERT: Financial Sentiment Analysis with Pre-trained Language Models.'' \textit{arXiv preprint} arXiv:1908.10063. \url{https://arxiv.org/abs/1908.10063}.
+
+    \item Baker, Scott R., Nicholas Bloom, and Steven J. Davis. 2016. ``Measuring Economic Policy Uncertainty.'' \textit{The Quarterly Journal of Economics} 131 (4): 1593--1636. \url{https://doi.org/10.1093/qje/qjw024}.
+
+    \item Blei, David M., Andrew Y. Ng, and Michael I. Jordan. 2003. ``Latent Dirichlet Allocation.'' \textit{Journal of Machine Learning Research} 3: 993--1022. \url{https://www.jmlr.org/papers/v3/blei03a.html}.
+
+    \item Boudoukh, Jacob, Ronen Feldman, Shimon Kogan, and Matthew Richardson. 2019. ``Information, Trading, and Volatility: Evidence from Firm-Specific News.'' \textit{The Review of Financial Studies} 32 (3): 992--1033. \url{https://doi.org/10.1093/rfs/hhy083}.
+
+    \item Bybee, Leland, Bryan T. Kelly, Asaf Manela, and Dacheng Xiu. 2024. ``Business News and Business Cycles.'' \textit{The Journal of Finance} 79 (5): 3105--3147. \url{https://doi.org/10.1111/jofi.13377}.
+
+    \item Calomiris, Charles W., and Harry Mamaysky. 2019. ``How News and Its Context Drive Risk and Returns around the World.'' \textit{Journal of Financial Economics} 133 (2): 299--336. \url{https://doi.org/10.1016/j.jfineco.2018.11.009}.
+
+    \item Glasserman, Paul, and Harry Mamaysky. 2019. ``Does Unusual News Forecast Market Stress?'' \textit{Journal of Financial and Quantitative Analysis} 54 (5): 1937--1974. \url{https://doi.org/10.1017/S0022109018001237}.
+
+    \item Grootendorst, Maarten. 2022. ``BERTopic: Neural Topic Modeling with a Class-Based TF-IDF Procedure.'' \textit{arXiv preprint} arXiv:2203.05794. \url{https://arxiv.org/abs/2203.05794}.
+
+    \item Hamilton, James D. 1989. ``A New Approach to the Economic Analysis of Nonstationary Time Series and the Business Cycle.'' \textit{Econometrica} 57 (2): 357--384. \url{https://doi.org/10.2307/1912559}.
+
+    \item Loughran, Tim, and Bill McDonald. 2011. ``When Is a Liability Not a Liability? Textual Analysis, Dictionaries, and 10-Ks.'' \textit{The Journal of Finance} 66 (1): 35--65. \url{https://doi.org/10.1111/j.1540-6261.2010.01625.x}.
+
+    \item Manela, Asaf, and Alan Moreira. 2017. ``News Implied Volatility and Disaster Concerns.'' \textit{Journal of Financial Economics} 123 (1): 137--162. \url{https://doi.org/10.1016/j.jfineco.2016.01.032}.
+
+    \item Rabiner, Lawrence R. 1989. ``A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition.'' \textit{Proceedings of the IEEE} 77 (2): 257--286. \url{https://doi.org/10.1109/5.18626}.
+
+    \item Tetlock, Paul C. 2007. ``Giving Content to Investor Sentiment: The Role of Media in the Stock Market.'' \textit{The Journal of Finance} 62 (3): 1139--1168. \url{https://doi.org/10.1111/j.1540-6261.2007.01232.x}.
+\end{description}
+
+\end{document}

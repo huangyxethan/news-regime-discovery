@@ -1,0 +1,35 @@
+# Credentials — never commit
+.env
+*service-account*.json
+sunlit-amulet-*.json
+
+# Licensed raw data (WRDS RavenPack / CRSP) and text-derived caches
+data/
+_data/*.pkl
+_data/*.npz
+_data/bertopic_model/
+_data/bertopic_macro_model/
+_data/regime_macro_top_headlines.parquet
+_data/news_features*.parquet
+_data/market_features.parquet
+_data/lda_topics_*.parquet
+_data/bertopic_*daily.parquet
+
+# Environments and tooling
+.conda/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.claude/
+
+# LaTeX build artefacts
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk

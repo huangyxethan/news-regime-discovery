@@ -1,0 +1,1581 @@
+{
+  "price-GMM": {
+    "sig": "97d3584bbbbc3086",
+    "silhouette": 0.24723594448122996,
+    "dbi": 1.3993180865372594,
+    "rolling_ari": 0.3688631571606049,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 2357,
+        "micro": false,
+        "ann_ret": 0.0613,
+        "ann_vol": 0.1371,
+        "sharpe": 0.447,
+        "max_dd": -0.3603
+      },
+      {
+        "regime": 1,
+        "n_days": 747,
+        "micro": false,
+        "ann_ret": -0.1558,
+        "ann_vol": 0.4306,
+        "sharpe": -0.362,
+        "max_dd": -0.6405
+      },
+      {
+        "regime": 2,
+        "n_days": 3165,
+        "micro": false,
+        "ann_ret": 0.1057,
+        "ann_vol": 0.1295,
+        "sharpe": 0.816,
+        "max_dd": -0.3894
+      }
+    ],
+    "is_sharpe": {
+      "0": 0.185,
+      "1": -0.04,
+      "2": -0.168
+    },
+    "oos_sharpe": {
+      "0": 0.628,
+      "1": 0.812,
+      "2": null
+    }
+  },
+  "price-HMM": {
+    "sig": "be6648a9454ed2dd",
+    "silhouette": 0.2016263678533645,
+    "dbi": 1.4804782107481587,
+    "rolling_ari": 0.4469615677127172,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 1658,
+        "micro": false,
+        "ann_ret": 0.1883,
+        "ann_vol": 0.0934,
+        "sharpe": 2.016,
+        "max_dd": -0.0783
+      },
+      {
+        "regime": 1,
+        "n_days": 1655,
+        "micro": false,
+        "ann_ret": -0.035,
+        "ann_vol": 0.2022,
+        "sharpe": -0.173,
+        "max_dd": -0.4702
+      },
+      {
+        "regime": 2,
+        "n_days": 1407,
+        "micro": false,
+        "ann_ret": 0.1422,
+        "ann_vol": 0.1136,
+        "sharpe": 1.251,
+        "max_dd": -0.1104
+      },
+      {
+        "regime": 3,
+        "n_days": 438,
+        "micro": false,
+        "ann_ret": -0.2199,
+        "ann_vol": 0.4626,
+        "sharpe": -0.475,
+        "max_dd": -0.5137
+      },
+      {
+        "regime": 4,
+        "n_days": 1111,
+        "micro": false,
+        "ann_ret": 0.0042,
+        "ann_vol": 0.1938,
+        "sharpe": 0.022,
+        "max_dd": -0.2894
+      }
+    ],
+    "is_sharpe": {
+      "0": 1.131,
+      "1": -0.634,
+      "2": 1.147,
+      "3": -0.474,
+      "4": -0.048
+    },
+    "oos_sharpe": {
+      "0": -0.339,
+      "1": null,
+      "2": 1.776,
+      "4": 3.852
+    }
+  },
+  "text_scalar_smooth-GMM": {
+    "sig": "61cd8632ef906ee4",
+    "silhouette": 0.20934576267128369,
+    "dbi": 1.5579375286867863,
+    "rolling_ari": 0.22600597389341098,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 367,
+        "micro": false,
+        "ann_ret": 0.1112,
+        "ann_vol": 0.183,
+        "sharpe": 0.608,
+        "max_dd": -0.1417
+      },
+      {
+        "regime": 1,
+        "n_days": 2617,
+        "micro": false,
+        "ann_ret": 0.1222,
+        "ann_vol": 0.1583,
+        "sharpe": 0.772,
+        "max_dd": -0.3285
+      },
+      {
+        "regime": 2,
+        "n_days": 1464,
+        "micro": false,
+        "ann_ret": 0.021,
+        "ann_vol": 0.1569,
+        "sharpe": 0.134,
+        "max_dd": -0.2623
+      },
+      {
+        "regime": 3,
+        "n_days": 775,
+        "micro": false,
+        "ann_ret": 0.1046,
+        "ann_vol": 0.1729,
+        "sharpe": 0.605,
+        "max_dd": -0.2543
+      },
+      {
+        "regime": 4,
+        "n_days": 1032,
+        "micro": false,
+        "ann_ret": -0.0977,
+        "ann_vol": 0.3084,
+        "sharpe": -0.317,
+        "max_dd": -0.6281
+      }
+    ]
+  },
+  "text_scalar_smooth-HMM": {
+    "sig": "028288f25d89b3b7",
+    "silhouette": 0.2842996512986564,
+    "dbi": 1.2589233784118057,
+    "rolling_ari": 0.3833808126888146,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 685,
+        "micro": false,
+        "ann_ret": 0.0428,
+        "ann_vol": 0.215,
+        "sharpe": 0.199,
+        "max_dd": -0.3375
+      },
+      {
+        "regime": 1,
+        "n_days": 2055,
+        "micro": false,
+        "ann_ret": 0.1144,
+        "ann_vol": 0.1432,
+        "sharpe": 0.799,
+        "max_dd": -0.1765
+      },
+      {
+        "regime": 2,
+        "n_days": 779,
+        "micro": false,
+        "ann_ret": 0.1035,
+        "ann_vol": 0.1725,
+        "sharpe": 0.6,
+        "max_dd": -0.2543
+      },
+      {
+        "regime": 3,
+        "n_days": 578,
+        "micro": false,
+        "ann_ret": -0.1614,
+        "ann_vol": 0.3543,
+        "sharpe": -0.456,
+        "max_dd": -0.601
+      },
+      {
+        "regime": 4,
+        "n_days": 2158,
+        "micro": false,
+        "ann_ret": 0.0556,
+        "ann_vol": 0.1746,
+        "sharpe": 0.318,
+        "max_dd": -0.3479
+      }
+    ],
+    "is_sharpe": {
+      "0": 0.2,
+      "1": 0.402,
+      "3": -0.833,
+      "4": 0.441
+    },
+    "oos_sharpe": {
+      "0": 0.856,
+      "1": 0.695,
+      "2": 0.585,
+      "3": 0.154
+    }
+  },
+  "text_lda_smooth-GMM": {
+    "sig": "798daad9ee386f72",
+    "silhouette": 0.211568447873802,
+    "dbi": 1.599866036106935,
+    "rolling_ari": 0.20843851207501482,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 1517,
+        "micro": false,
+        "ann_ret": 0.0055,
+        "ann_vol": 0.2229,
+        "sharpe": 0.025,
+        "max_dd": -0.5678
+      },
+      {
+        "regime": 1,
+        "n_days": 1092,
+        "micro": false,
+        "ann_ret": 0.076,
+        "ann_vol": 0.1738,
+        "sharpe": 0.437,
+        "max_dd": -0.1939
+      },
+      {
+        "regime": 2,
+        "n_days": 1317,
+        "micro": false,
+        "ann_ret": 0.1202,
+        "ann_vol": 0.1278,
+        "sharpe": 0.94,
+        "max_dd": -0.1978
+      },
+      {
+        "regime": 3,
+        "n_days": 905,
+        "micro": false,
+        "ann_ret": -0.0848,
+        "ann_vol": 0.2246,
+        "sharpe": -0.378,
+        "max_dd": -0.4915
+      },
+      {
+        "regime": 4,
+        "n_days": 1429,
+        "micro": false,
+        "ann_ret": 0.1338,
+        "ann_vol": 0.205,
+        "sharpe": 0.653,
+        "max_dd": -0.3393
+      }
+    ]
+  },
+  "text_lda_smooth-HMM": {
+    "sig": "1bd1eefe85b91476",
+    "silhouette": 0.23810498574292868,
+    "dbi": 1.369235309698535,
+    "rolling_ari": 0.14135353328829686,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 1213,
+        "micro": false,
+        "ann_ret": 0.0704,
+        "ann_vol": 0.2055,
+        "sharpe": 0.342,
+        "max_dd": -0.4794
+      },
+      {
+        "regime": 1,
+        "n_days": 1409,
+        "micro": false,
+        "ann_ret": 0.1284,
+        "ann_vol": 0.2062,
+        "sharpe": 0.623,
+        "max_dd": -0.3393
+      },
+      {
+        "regime": 2,
+        "n_days": 969,
+        "micro": false,
+        "ann_ret": -0.0488,
+        "ann_vol": 0.2192,
+        "sharpe": -0.223,
+        "max_dd": -0.4915
+      },
+      {
+        "regime": 3,
+        "n_days": 1172,
+        "micro": false,
+        "ann_ret": -0.002,
+        "ann_vol": 0.2137,
+        "sharpe": -0.009,
+        "max_dd": -0.3128
+      },
+      {
+        "regime": 4,
+        "n_days": 1497,
+        "micro": false,
+        "ann_ret": 0.0984,
+        "ann_vol": 0.1275,
+        "sharpe": 0.772,
+        "max_dd": -0.1978
+      }
+    ],
+    "is_sharpe": {
+      "0": 0.186,
+      "2": -0.223,
+      "3": -0.009,
+      "4": null
+    },
+    "oos_sharpe": {
+      "0": 0.694,
+      "1": null,
+      "3": null,
+      "4": null
+    }
+  },
+  "text_lda_smooth-KMeans": {
+    "sig": "1baf5f1aa813d06c",
+    "silhouette": 0.2448491711007273,
+    "dbi": 1.357286411552531,
+    "rolling_ari": 0.1459965966318088,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 1172,
+        "micro": false,
+        "ann_ret": 0.0022,
+        "ann_vol": 0.2158,
+        "sharpe": 0.01,
+        "max_dd": -0.3245
+      },
+      {
+        "regime": 1,
+        "n_days": 1535,
+        "micro": false,
+        "ann_ret": 0.0684,
+        "ann_vol": 0.1884,
+        "sharpe": 0.363,
+        "max_dd": -0.4359
+      },
+      {
+        "regime": 2,
+        "n_days": 1165,
+        "micro": false,
+        "ann_ret": 0.1015,
+        "ann_vol": 0.1311,
+        "sharpe": 0.774,
+        "max_dd": -0.1869
+      },
+      {
+        "regime": 3,
+        "n_days": 963,
+        "micro": false,
+        "ann_ret": -0.0544,
+        "ann_vol": 0.2195,
+        "sharpe": -0.248,
+        "max_dd": -0.4915
+      },
+      {
+        "regime": 4,
+        "n_days": 1425,
+        "micro": false,
+        "ann_ret": 0.1338,
+        "ann_vol": 0.2053,
+        "sharpe": 0.652,
+        "max_dd": -0.3393
+      }
+    ]
+  },
+  "text_embed_roll-GMM": {
+    "sig": "e2ec18ca7775364a",
+    "silhouette": 0.050711664457125535,
+    "dbi": 3.212258579297805,
+    "rolling_ari": 0.26507926322940406,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 1941,
+        "micro": false,
+        "ann_ret": 0.1354,
+        "ann_vol": 0.1832,
+        "sharpe": 0.739,
+        "max_dd": -0.4202
+      },
+      {
+        "regime": 1,
+        "n_days": 866,
+        "micro": false,
+        "ann_ret": -0.0678,
+        "ann_vol": 0.2138,
+        "sharpe": -0.317,
+        "max_dd": -0.4586
+      },
+      {
+        "regime": 2,
+        "n_days": 1321,
+        "micro": false,
+        "ann_ret": 0.0151,
+        "ann_vol": 0.195,
+        "sharpe": 0.078,
+        "max_dd": -0.3742
+      },
+      {
+        "regime": 3,
+        "n_days": 1531,
+        "micro": false,
+        "ann_ret": 0.0532,
+        "ann_vol": 0.1683,
+        "sharpe": 0.316,
+        "max_dd": -0.2549
+      },
+      {
+        "regime": 4,
+        "n_days": 606,
+        "micro": false,
+        "ann_ret": 0.0855,
+        "ann_vol": 0.249,
+        "sharpe": 0.344,
+        "max_dd": -0.2791
+      }
+    ]
+  },
+  "text_embed_roll-KMeans": {
+    "sig": "6fff4853f099552e",
+    "silhouette": 0.06796578718872635,
+    "dbi": 3.1027359336995533,
+    "rolling_ari": 0.3235500973345007,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 1543,
+        "micro": false,
+        "ann_ret": 0.0232,
+        "ann_vol": 0.2097,
+        "sharpe": 0.111,
+        "max_dd": -0.3226
+      },
+      {
+        "regime": 1,
+        "n_days": 630,
+        "micro": false,
+        "ann_ret": 0.1074,
+        "ann_vol": 0.1957,
+        "sharpe": 0.549,
+        "max_dd": -0.2135
+      },
+      {
+        "regime": 2,
+        "n_days": 2666,
+        "micro": false,
+        "ann_ret": 0.0946,
+        "ann_vol": 0.1803,
+        "sharpe": 0.525,
+        "max_dd": -0.4482
+      },
+      {
+        "regime": 3,
+        "n_days": 759,
+        "micro": false,
+        "ann_ret": -0.0746,
+        "ann_vol": 0.2197,
+        "sharpe": -0.339,
+        "max_dd": -0.4227
+      },
+      {
+        "regime": 4,
+        "n_days": 667,
+        "micro": false,
+        "ann_ret": 0.0874,
+        "ann_vol": 0.1757,
+        "sharpe": 0.497,
+        "max_dd": -0.1519
+      }
+    ]
+  },
+  "hybrid_pca-GMM": {
+    "sig": "5a445d5fb1903276",
+    "silhouette": 0.1632384200546471,
+    "dbi": 1.7355316577329567,
+    "rolling_ari": 0.27111939454621325,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 370,
+        "micro": false,
+        "ann_ret": -0.4062,
+        "ann_vol": 0.4958,
+        "sharpe": -0.819,
+        "max_dd": -0.6174
+      },
+      {
+        "regime": 1,
+        "n_days": 1315,
+        "micro": false,
+        "ann_ret": 0.1415,
+        "ann_vol": 0.0982,
+        "sharpe": 1.44,
+        "max_dd": -0.0816
+      },
+      {
+        "regime": 2,
+        "n_days": 988,
+        "micro": false,
+        "ann_ret": -0.045,
+        "ann_vol": 0.2171,
+        "sharpe": -0.207,
+        "max_dd": -0.4915
+      },
+      {
+        "regime": 3,
+        "n_days": 2805,
+        "micro": false,
+        "ann_ret": 0.1166,
+        "ann_vol": 0.1474,
+        "sharpe": 0.791,
+        "max_dd": -0.2812
+      },
+      {
+        "regime": 4,
+        "n_days": 777,
+        "micro": false,
+        "ann_ret": 0.0684,
+        "ann_vol": 0.1755,
+        "sharpe": 0.39,
+        "max_dd": -0.2543
+      }
+    ]
+  },
+  "hybrid_pca-HMM": {
+    "sig": "fa8bf48b23a62814",
+    "silhouette": 0.1255339887598676,
+    "dbi": 1.823208819105546,
+    "rolling_ari": 0.29212887515725167,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 1592,
+        "micro": false,
+        "ann_ret": 0.0559,
+        "ann_vol": 0.1557,
+        "sharpe": 0.359,
+        "max_dd": -0.3502
+      },
+      {
+        "regime": 1,
+        "n_days": 1157,
+        "micro": false,
+        "ann_ret": -0.0298,
+        "ann_vol": 0.2627,
+        "sharpe": -0.113,
+        "max_dd": -0.4915
+      },
+      {
+        "regime": 2,
+        "n_days": 1608,
+        "micro": false,
+        "ann_ret": 0.1004,
+        "ann_vol": 0.1337,
+        "sharpe": 0.75,
+        "max_dd": -0.2225
+      },
+      {
+        "regime": 3,
+        "n_days": 258,
+        "micro": false,
+        "ann_ret": -0.1517,
+        "ann_vol": 0.4459,
+        "sharpe": -0.34,
+        "max_dd": -0.461
+      },
+      {
+        "regime": 4,
+        "n_days": 1640,
+        "micro": false,
+        "ann_ret": 0.1188,
+        "ann_vol": 0.1501,
+        "sharpe": 0.791,
+        "max_dd": -0.1571
+      }
+    ],
+    "is_sharpe": {
+      "0": 0.856,
+      "1": -0.242,
+      "2": 0.122,
+      "3": -0.34,
+      "4": 0.29
+    },
+    "oos_sharpe": {
+      "0": 2.881,
+      "1": null,
+      "2": 0.026,
+      "3": 0.63
+    }
+  },
+  "two_stage": {
+    "sig": "8f3398e12e0663c3",
+    "silhouette": -0.041999205468839625,
+    "dbi": 5.616681762569973,
+    "rolling_ari": 0.10802066421285757,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 1658,
+        "micro": false,
+        "ann_ret": 0.1883,
+        "ann_vol": 0.0934,
+        "sharpe": 2.016,
+        "max_dd": -0.0783
+      },
+      {
+        "regime": 1,
+        "n_days": 1655,
+        "micro": false,
+        "ann_ret": -0.035,
+        "ann_vol": 0.2022,
+        "sharpe": -0.173,
+        "max_dd": -0.4702
+      },
+      {
+        "regime": 2,
+        "n_days": 1407,
+        "micro": false,
+        "ann_ret": 0.1422,
+        "ann_vol": 0.1136,
+        "sharpe": 1.251,
+        "max_dd": -0.1104
+      },
+      {
+        "regime": 3,
+        "n_days": 438,
+        "micro": false,
+        "ann_ret": -0.2199,
+        "ann_vol": 0.4626,
+        "sharpe": -0.475,
+        "max_dd": -0.5137
+      },
+      {
+        "regime": 4,
+        "n_days": 1111,
+        "micro": false,
+        "ann_ret": 0.0042,
+        "ann_vol": 0.1938,
+        "sharpe": 0.022,
+        "max_dd": -0.2894
+      }
+    ]
+  },
+  "lean_hybrid-GMM": {
+    "sig": "88a444a24312f3fc",
+    "silhouette": 0.1812587643517586,
+    "dbi": 1.478161024580875,
+    "rolling_ari": 0.38904234268003457,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 2269,
+        "micro": false,
+        "ann_ret": 0.1765,
+        "ann_vol": 0.0908,
+        "sharpe": 1.943,
+        "max_dd": -0.085
+      },
+      {
+        "regime": 1,
+        "n_days": 270,
+        "micro": false,
+        "ann_ret": -0.1661,
+        "ann_vol": 0.5339,
+        "sharpe": -0.311,
+        "max_dd": -0.4528
+      },
+      {
+        "regime": 2,
+        "n_days": 1697,
+        "micro": false,
+        "ann_ret": -0.1348,
+        "ann_vol": 0.2297,
+        "sharpe": -0.587,
+        "max_dd": -0.6209
+      },
+      {
+        "regime": 3,
+        "n_days": 1108,
+        "micro": false,
+        "ann_ret": 0.2845,
+        "ann_vol": 0.0996,
+        "sharpe": 2.856,
+        "max_dd": -0.0997
+      },
+      {
+        "regime": 4,
+        "n_days": 911,
+        "micro": false,
+        "ann_ret": -0.0774,
+        "ann_vol": 0.2059,
+        "sharpe": -0.376,
+        "max_dd": -0.5052
+      }
+    ]
+  },
+  "lean_hybrid-HMM": {
+    "sig": "84b91d3a93a7bc64",
+    "silhouette": 0.18882063985754494,
+    "dbi": 1.5584080455307798,
+    "rolling_ari": 0.40640823873060716,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 1510,
+        "micro": false,
+        "ann_ret": -0.0371,
+        "ann_vol": 0.2082,
+        "sharpe": -0.178,
+        "max_dd": -0.3038
+      },
+      {
+        "regime": 1,
+        "n_days": 936,
+        "micro": false,
+        "ann_ret": -0.0431,
+        "ann_vol": 0.2094,
+        "sharpe": -0.206,
+        "max_dd": -0.4851
+      },
+      {
+        "regime": 2,
+        "n_days": 1585,
+        "micro": false,
+        "ann_ret": 0.1705,
+        "ann_vol": 0.1094,
+        "sharpe": 1.559,
+        "max_dd": -0.113
+      },
+      {
+        "regime": 3,
+        "n_days": 385,
+        "micro": false,
+        "ann_ret": -0.2841,
+        "ann_vol": 0.4854,
+        "sharpe": -0.585,
+        "max_dd": -0.5222
+      },
+      {
+        "regime": 4,
+        "n_days": 1839,
+        "micro": false,
+        "ann_ret": 0.1669,
+        "ann_vol": 0.1015,
+        "sharpe": 1.645,
+        "max_dd": -0.0776
+      }
+    ]
+  },
+  "text_btopic_smooth-GMM": {
+    "sig": "270f3566c2bc8917",
+    "silhouette": 0.22148851821735183,
+    "dbi": 1.7719127085009803,
+    "rolling_ari": 0.1963861582132886,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 1440,
+        "micro": false,
+        "ann_ret": -0.0035,
+        "ann_vol": 0.2266,
+        "sharpe": -0.015,
+        "max_dd": -0.5731
+      },
+      {
+        "regime": 1,
+        "n_days": 446,
+        "micro": false,
+        "ann_ret": 0.1186,
+        "ann_vol": 0.1567,
+        "sharpe": 0.757,
+        "max_dd": -0.1812
+      },
+      {
+        "regime": 2,
+        "n_days": 971,
+        "micro": false,
+        "ann_ret": -0.065,
+        "ann_vol": 0.2192,
+        "sharpe": -0.296,
+        "max_dd": -0.4915
+      },
+      {
+        "regime": 3,
+        "n_days": 2378,
+        "micro": false,
+        "ann_ret": 0.0974,
+        "ann_vol": 0.1512,
+        "sharpe": 0.644,
+        "max_dd": -0.1978
+      },
+      {
+        "regime": 4,
+        "n_days": 1030,
+        "micro": false,
+        "ann_ret": 0.1368,
+        "ann_vol": 0.2201,
+        "sharpe": 0.622,
+        "max_dd": -0.3393
+      }
+    ]
+  },
+  "text_btopic_smooth-HMM": {
+    "sig": "8ad99a58906ac194",
+    "silhouette": 0.26139328214704083,
+    "dbi": 1.4910810848433727,
+    "rolling_ari": 0.2775612303183736,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 1352,
+        "micro": false,
+        "ann_ret": 0.1325,
+        "ann_vol": 0.2085,
+        "sharpe": 0.636,
+        "max_dd": -0.3393
+      },
+      {
+        "regime": 1,
+        "n_days": 1321,
+        "micro": false,
+        "ann_ret": 0.0962,
+        "ann_vol": 0.1656,
+        "sharpe": 0.581,
+        "max_dd": -0.2134
+      },
+      {
+        "regime": 2,
+        "n_days": 1418,
+        "micro": false,
+        "ann_ret": 0.0362,
+        "ann_vol": 0.2165,
+        "sharpe": 0.167,
+        "max_dd": -0.4884
+      },
+      {
+        "regime": 3,
+        "n_days": 1231,
+        "micro": false,
+        "ann_ret": 0.0602,
+        "ann_vol": 0.1508,
+        "sharpe": 0.399,
+        "max_dd": -0.2788
+      },
+      {
+        "regime": 4,
+        "n_days": 943,
+        "micro": false,
+        "ann_ret": -0.079,
+        "ann_vol": 0.2217,
+        "sharpe": -0.356,
+        "max_dd": -0.4915
+      }
+    ]
+  },
+  "lean_hybrid_v2-GMM": {
+    "sig": "9183f31de77029cc",
+    "silhouette": 0.17921203848069253,
+    "dbi": 1.557767338661455,
+    "rolling_ari": 0.406697846003957,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 1886,
+        "micro": false,
+        "ann_ret": 0.2145,
+        "ann_vol": 0.0942,
+        "sharpe": 2.277,
+        "max_dd": -0.1263
+      },
+      {
+        "regime": 1,
+        "n_days": 1347,
+        "micro": false,
+        "ann_ret": -0.0566,
+        "ann_vol": 0.1959,
+        "sharpe": -0.289,
+        "max_dd": -0.4619
+      },
+      {
+        "regime": 2,
+        "n_days": 1397,
+        "micro": false,
+        "ann_ret": -0.0433,
+        "ann_vol": 0.2293,
+        "sharpe": -0.189,
+        "max_dd": -0.3688
+      },
+      {
+        "regime": 3,
+        "n_days": 1362,
+        "micro": false,
+        "ann_ret": 0.1791,
+        "ann_vol": 0.0873,
+        "sharpe": 2.052,
+        "max_dd": -0.0595
+      },
+      {
+        "regime": 4,
+        "n_days": 268,
+        "micro": false,
+        "ann_ret": -0.5507,
+        "ann_vol": 0.5559,
+        "sharpe": -0.991,
+        "max_dd": -0.5303
+      }
+    ]
+  },
+  "lean_hybrid_v2-HMM": {
+    "sig": "467af048b6ab3b7d",
+    "silhouette": 0.16754297736569118,
+    "dbi": 1.7019906999158962,
+    "rolling_ari": 0.4074990594251573,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 1322,
+        "micro": false,
+        "ann_ret": 0.0324,
+        "ann_vol": 0.2009,
+        "sharpe": 0.161,
+        "max_dd": -0.217
+      },
+      {
+        "regime": 1,
+        "n_days": 1826,
+        "micro": false,
+        "ann_ret": 0.1626,
+        "ann_vol": 0.1054,
+        "sharpe": 1.542,
+        "max_dd": -0.1085
+      },
+      {
+        "regime": 2,
+        "n_days": 1321,
+        "micro": false,
+        "ann_ret": -0.0682,
+        "ann_vol": 0.2025,
+        "sharpe": -0.337,
+        "max_dd": -0.4296
+      },
+      {
+        "regime": 3,
+        "n_days": 1369,
+        "micro": false,
+        "ann_ret": 0.1591,
+        "ann_vol": 0.0972,
+        "sharpe": 1.638,
+        "max_dd": -0.0679
+      },
+      {
+        "regime": 4,
+        "n_days": 422,
+        "micro": false,
+        "ann_ret": -0.245,
+        "ann_vol": 0.4737,
+        "sharpe": -0.517,
+        "max_dd": -0.5315
+      }
+    ]
+  },
+  "macro_only-HMM": {
+    "sig": "d70e3d29f09dfe61",
+    "silhouette": 0.2704395913315446,
+    "dbi": 1.2653982434599471,
+    "rolling_ari": 0.23919086393011066,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 482,
+        "micro": false,
+        "ann_ret": -0.1164,
+        "ann_vol": 0.399,
+        "sharpe": -0.292,
+        "max_dd": -0.5565
+      },
+      {
+        "regime": 1,
+        "n_days": 781,
+        "micro": false,
+        "ann_ret": -0.0096,
+        "ann_vol": 0.2177,
+        "sharpe": -0.044,
+        "max_dd": -0.3933
+      },
+      {
+        "regime": 2,
+        "n_days": 1823,
+        "micro": false,
+        "ann_ret": 0.0885,
+        "ann_vol": 0.1535,
+        "sharpe": 0.577,
+        "max_dd": -0.3114
+      },
+      {
+        "regime": 3,
+        "n_days": 793,
+        "micro": false,
+        "ann_ret": 0.1121,
+        "ann_vol": 0.1721,
+        "sharpe": 0.651,
+        "max_dd": -0.2543
+      },
+      {
+        "regime": 4,
+        "n_days": 2381,
+        "micro": false,
+        "ann_ret": 0.0745,
+        "ann_vol": 0.1527,
+        "sharpe": 0.488,
+        "max_dd": -0.2428
+      }
+    ]
+  },
+  "djpr_plus_macro-HMM": {
+    "sig": "3d6c415e8d2133e2",
+    "silhouette": 0.24513132786740588,
+    "dbi": 1.422859964514775,
+    "rolling_ari": 0.2676485524342267,
+    "financial_stats": [
+      {
+        "regime": 0.0,
+        "n_days": 1918,
+        "micro": false,
+        "ann_ret": 0.1412,
+        "ann_vol": 0.1407,
+        "sharpe": 1.004,
+        "max_dd": -0.1875
+      },
+      {
+        "regime": 1.0,
+        "n_days": 2366,
+        "micro": false,
+        "ann_ret": 0.0361,
+        "ann_vol": 0.1706,
+        "sharpe": 0.212,
+        "max_dd": -0.2794
+      },
+      {
+        "regime": 2.0,
+        "n_days": 647,
+        "micro": false,
+        "ann_ret": -0.0103,
+        "ann_vol": 0.2235,
+        "sharpe": -0.046,
+        "max_dd": -0.3619
+      },
+      {
+        "regime": 3.0,
+        "n_days": 787,
+        "micro": false,
+        "ann_ret": 0.1091,
+        "ann_vol": 0.1721,
+        "sharpe": 0.634,
+        "max_dd": -0.2543
+      },
+      {
+        "regime": 4.0,
+        "n_days": 537,
+        "micro": false,
+        "ann_ret": -0.1189,
+        "ann_vol": 0.3683,
+        "sharpe": -0.323,
+        "max_dd": -0.5568
+      }
+    ]
+  },
+  "price_plus_macro-HMM": {
+    "sig": "56756bdff93f6c91",
+    "silhouette": 0.1794256506615377,
+    "dbi": 1.6557057051348525,
+    "rolling_ari": 0.31745046996481713,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 1250,
+        "micro": false,
+        "ann_ret": 0.0113,
+        "ann_vol": 0.203,
+        "sharpe": 0.056,
+        "max_dd": -0.2335
+      },
+      {
+        "regime": 1,
+        "n_days": 2575,
+        "micro": false,
+        "ann_ret": 0.1532,
+        "ann_vol": 0.1018,
+        "sharpe": 1.505,
+        "max_dd": -0.0875
+      },
+      {
+        "regime": 2,
+        "n_days": 922,
+        "micro": false,
+        "ann_ret": -0.0769,
+        "ann_vol": 0.2234,
+        "sharpe": -0.344,
+        "max_dd": -0.4915
+      },
+      {
+        "regime": 3,
+        "n_days": 271,
+        "micro": false,
+        "ann_ret": -0.3124,
+        "ann_vol": 0.5284,
+        "sharpe": -0.591,
+        "max_dd": -0.4736
+      },
+      {
+        "regime": 4,
+        "n_days": 1242,
+        "micro": false,
+        "ann_ret": 0.0895,
+        "ann_vol": 0.1696,
+        "sharpe": 0.528,
+        "max_dd": -0.2543
+      }
+    ]
+  },
+  "hybrid_full-HMM": {
+    "sig": "6930a1ebc8d30749",
+    "silhouette": 0.19149847187322702,
+    "dbi": 1.7029937586670993,
+    "rolling_ari": 0.31458775430706487,
+    "financial_stats": [
+      {
+        "regime": 0.0,
+        "n_days": 2859,
+        "micro": false,
+        "ann_ret": 0.1429,
+        "ann_vol": 0.105,
+        "sharpe": 1.361,
+        "max_dd": -0.0816
+      },
+      {
+        "regime": 1.0,
+        "n_days": 919,
+        "micro": false,
+        "ann_ret": -0.0709,
+        "ann_vol": 0.2231,
+        "sharpe": -0.318,
+        "max_dd": -0.4915
+      },
+      {
+        "regime": 2.0,
+        "n_days": 1409,
+        "micro": false,
+        "ann_ret": 0.0206,
+        "ann_vol": 0.2079,
+        "sharpe": 0.099,
+        "max_dd": -0.2238
+      },
+      {
+        "regime": 3.0,
+        "n_days": 277,
+        "micro": false,
+        "ann_ret": -0.2675,
+        "ann_vol": 0.5144,
+        "sharpe": -0.52,
+        "max_dd": -0.461
+      },
+      {
+        "regime": 4.0,
+        "n_days": 791,
+        "micro": false,
+        "ann_ret": 0.0925,
+        "ann_vol": 0.1736,
+        "sharpe": 0.533,
+        "max_dd": -0.2543
+      }
+    ]
+  },
+  "macro_lda_only-HMM": {
+    "sig": "81ade352907d779c",
+    "silhouette": 0.1937707350490595,
+    "dbi": 1.8901504094716863,
+    "rolling_ari": 0.2024100022045317,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 1057,
+        "micro": false,
+        "ann_ret": -0.0395,
+        "ann_vol": 0.217,
+        "sharpe": -0.182,
+        "max_dd": -0.4915
+      },
+      {
+        "regime": 1,
+        "n_days": 1075,
+        "micro": false,
+        "ann_ret": 0.1046,
+        "ann_vol": 0.1293,
+        "sharpe": 0.809,
+        "max_dd": -0.1247
+      },
+      {
+        "regime": 2,
+        "n_days": 733,
+        "micro": false,
+        "ann_ret": 0.0875,
+        "ann_vol": 0.1725,
+        "sharpe": 0.507,
+        "max_dd": -0.232
+      },
+      {
+        "regime": 3,
+        "n_days": 1335,
+        "micro": false,
+        "ann_ret": 0.1422,
+        "ann_vol": 0.1914,
+        "sharpe": 0.743,
+        "max_dd": -0.3393
+      },
+      {
+        "regime": 4,
+        "n_days": 2067,
+        "micro": false,
+        "ann_ret": 0.0171,
+        "ann_vol": 0.2171,
+        "sharpe": 0.079,
+        "max_dd": -0.5785
+      }
+    ]
+  },
+  "macro_btopic_only-HMM": {
+    "sig": "acf64e12f6861031",
+    "silhouette": 0.20403144353030697,
+    "dbi": 1.5179097971612219,
+    "rolling_ari": 0.16590191091681442,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 1893,
+        "micro": false,
+        "ann_ret": 0.1124,
+        "ann_vol": 0.1917,
+        "sharpe": 0.587,
+        "max_dd": -0.3393
+      },
+      {
+        "regime": 1,
+        "n_days": 1863,
+        "micro": false,
+        "ann_ret": 0.0324,
+        "ann_vol": 0.2168,
+        "sharpe": 0.149,
+        "max_dd": -0.5678
+      },
+      {
+        "regime": 2,
+        "n_days": 1517,
+        "micro": false,
+        "ann_ret": 0.0927,
+        "ann_vol": 0.1446,
+        "sharpe": 0.641,
+        "max_dd": -0.2204
+      },
+      {
+        "regime": 3,
+        "n_days": 662,
+        "micro": false,
+        "ann_ret": -0.0189,
+        "ann_vol": 0.2258,
+        "sharpe": -0.084,
+        "max_dd": -0.4139
+      },
+      {
+        "regime": 4,
+        "n_days": 332,
+        "micro": false,
+        "ann_ret": -0.1241,
+        "ann_vol": 0.2003,
+        "sharpe": -0.619,
+        "max_dd": -0.2984
+      }
+    ]
+  },
+  "djpr_lda_plus_macro_lda-HMM": {
+    "sig": "7ac5f2bd94442f18",
+    "silhouette": 0.1758019516410496,
+    "dbi": 1.5658953130988782,
+    "rolling_ari": 0.24018219393441692,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 938,
+        "micro": false,
+        "ann_ret": 0.1134,
+        "ann_vol": 0.1693,
+        "sharpe": 0.67,
+        "max_dd": -0.2543
+      },
+      {
+        "regime": 1,
+        "n_days": 985,
+        "micro": false,
+        "ann_ret": -0.0564,
+        "ann_vol": 0.2182,
+        "sharpe": -0.258,
+        "max_dd": -0.4915
+      },
+      {
+        "regime": 2,
+        "n_days": 1366,
+        "micro": false,
+        "ann_ret": 0.0694,
+        "ann_vol": 0.2221,
+        "sharpe": 0.312,
+        "max_dd": -0.5208
+      },
+      {
+        "regime": 3,
+        "n_days": 860,
+        "micro": false,
+        "ann_ret": -0.0498,
+        "ann_vol": 0.199,
+        "sharpe": -0.25,
+        "max_dd": -0.2882
+      },
+      {
+        "regime": 4,
+        "n_days": 2118,
+        "micro": false,
+        "ann_ret": 0.1215,
+        "ann_vol": 0.1692,
+        "sharpe": 0.718,
+        "max_dd": -0.3393
+      }
+    ]
+  },
+  "djpr_btopic_plus_macro_btopic-HMM": {
+    "sig": "253cd5d2dfd48b7e",
+    "silhouette": 0.17369093648280967,
+    "dbi": 1.9491722163675997,
+    "rolling_ari": 0.218583253790201,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 1411,
+        "micro": false,
+        "ann_ret": 0.0957,
+        "ann_vol": 0.1318,
+        "sharpe": 0.726,
+        "max_dd": -0.1978
+      },
+      {
+        "regime": 1,
+        "n_days": 994,
+        "micro": false,
+        "ann_ret": -0.054,
+        "ann_vol": 0.2175,
+        "sharpe": -0.248,
+        "max_dd": -0.4915
+      },
+      {
+        "regime": 2,
+        "n_days": 1353,
+        "micro": false,
+        "ann_ret": 0.1351,
+        "ann_vol": 0.2085,
+        "sharpe": 0.648,
+        "max_dd": -0.3393
+      },
+      {
+        "regime": 3,
+        "n_days": 1077,
+        "micro": false,
+        "ann_ret": 0.1093,
+        "ann_vol": 0.1705,
+        "sharpe": 0.641,
+        "max_dd": -0.1939
+      },
+      {
+        "regime": 4,
+        "n_days": 1432,
+        "micro": false,
+        "ann_ret": -0.0152,
+        "ann_vol": 0.2276,
+        "sharpe": -0.067,
+        "max_dd": -0.5678
+      }
+    ]
+  },
+  "text_full_lda-HMM": {
+    "sig": "fafd593d88429b11",
+    "silhouette": 0.1481272410081548,
+    "dbi": 1.884483952742313,
+    "rolling_ari": 0.22816908883722548,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 1352,
+        "micro": false,
+        "ann_ret": 0.0268,
+        "ann_vol": 0.2431,
+        "sharpe": 0.11,
+        "max_dd": -0.5774
+      },
+      {
+        "regime": 1,
+        "n_days": 1439,
+        "micro": false,
+        "ann_ret": 0.1236,
+        "ann_vol": 0.1174,
+        "sharpe": 1.053,
+        "max_dd": -0.1416
+      },
+      {
+        "regime": 2,
+        "n_days": 984,
+        "micro": false,
+        "ann_ret": -0.0573,
+        "ann_vol": 0.2183,
+        "sharpe": -0.263,
+        "max_dd": -0.4915
+      },
+      {
+        "regime": 3,
+        "n_days": 1677,
+        "micro": false,
+        "ann_ret": 0.1089,
+        "ann_vol": 0.2017,
+        "sharpe": 0.54,
+        "max_dd": -0.3393
+      },
+      {
+        "regime": 4,
+        "n_days": 815,
+        "micro": false,
+        "ann_ret": 0.0242,
+        "ann_vol": 0.1603,
+        "sharpe": 0.151,
+        "max_dd": -0.1908
+      }
+    ]
+  },
+  "ft_news_fusion_best": {
+    "sig": "1968930091f13dc4",
+    "silhouette": 0.08407168679888057,
+    "dbi": 2.8375770598931873,
+    "rolling_ari": 0.22308239547616857,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 803,
+        "micro": false,
+        "ann_ret": 0.0985,
+        "ann_vol": 0.1732,
+        "sharpe": 0.569,
+        "max_dd": -0.2543
+      },
+      {
+        "regime": 1,
+        "n_days": 2178,
+        "micro": false,
+        "ann_ret": 0.1201,
+        "ann_vol": 0.1376,
+        "sharpe": 0.873,
+        "max_dd": -0.1978
+      },
+      {
+        "regime": 2,
+        "n_days": 990,
+        "micro": false,
+        "ann_ret": -0.0527,
+        "ann_vol": 0.2176,
+        "sharpe": -0.242,
+        "max_dd": -0.4915
+      },
+      {
+        "regime": 3,
+        "n_days": 650,
+        "micro": false,
+        "ann_ret": 0.1632,
+        "ann_vol": 0.237,
+        "sharpe": 0.689,
+        "max_dd": -0.3393
+      },
+      {
+        "regime": 4,
+        "n_days": 1641,
+        "micro": false,
+        "ann_ret": -0.0213,
+        "ann_vol": 0.2302,
+        "sharpe": -0.093,
+        "max_dd": -0.5678
+      }
+    ]
+  },
+  "ft_full_stack_best": {
+    "sig": "33b53e5c5e2bae30",
+    "silhouette": 0.06815527817407038,
+    "dbi": 2.8832526296332404,
+    "rolling_ari": 0.23545705077151266,
+    "financial_stats": [
+      {
+        "regime": 0,
+        "n_days": 1347,
+        "micro": false,
+        "ann_ret": 0.1182,
+        "ann_vol": 0.1836,
+        "sharpe": 0.644,
+        "max_dd": -0.2674
+      },
+      {
+        "regime": 1,
+        "n_days": 256,
+        "micro": false,
+        "ann_ret": -0.1878,
+        "ann_vol": 0.5012,
+        "sharpe": -0.375,
+        "max_dd": -0.461
+      },
+      {
+        "regime": 2,
+        "n_days": 1228,
+        "micro": false,
+        "ann_ret": 0.0338,
+        "ann_vol": 0.141,
+        "sharpe": 0.24,
+        "max_dd": -0.2238
+      },
+      {
+        "regime": 3,
+        "n_days": 989,
+        "micro": false,
+        "ann_ret": -0.0547,
+        "ann_vol": 0.2177,
+        "sharpe": -0.251,
+        "max_dd": -0.4915
+      },
+      {
+        "regime": 4,
+        "n_days": 2442,
+        "micro": false,
+        "ann_ret": 0.1069,
+        "ann_vol": 0.1499,
+        "sharpe": 0.713,
+        "max_dd": -0.1978
+      }
+    ]
+  }
+}
